@@ -8,11 +8,10 @@ export default function App() {
         <Text style={styles.text}>Daniel González Lorenzo</Text>
       </View>
       <View style={styles.containerBottom}>
-        <Text>Mi nombre es Daniel González Lorenzo, en la actualidad soy estudiante en los salesianos La Cuesta de Tenerife. Disfruto mucho estar estudiando mi hobby ya que es muy entretenido.
+        <Text>Mi nombre es Daniel González Lorenzo, en la actualidad soy estudiante en los salesianos La Cuesta de Tenerife.Disfruto mucho estar estudiando mi hobby ya que es muy entretenido.
         </Text>
       </View>
       <View style={styles.qrCode}>
-        <Text></Text>
       </View>
     </View>
   );
@@ -37,6 +36,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     marginTop: 30,
+    paddingHorizontal: 20,
     flex: 5,
     width: '100%',
   },
