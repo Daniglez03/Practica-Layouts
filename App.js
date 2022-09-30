@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
+import QRCode from 'react-native-qrcode-svg';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         </Text>
       </View>
       <View style={styles.qrCode}>
+        <QRCode value="https://github.com/Daniglez03"/>
       </View>
     </View>
   );
